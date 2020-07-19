@@ -21,7 +21,7 @@
 
 ![](images/source.png)
 
-### We can we have login.js file which checks for login info
+### We have login.js file which checks for login info
 
 ![](images/source2.png)
 
@@ -29,7 +29,7 @@
 #### So what we can do is make fake cookie named SessionToken and give it a false value and try to reload the page then 
 ![](images/webpage.PNG)
 
-### You can make the fake cookie with Firefox or whatever browser using through the Cookie Editor. Once you've made the cookie reload the page 
+### We make the fake cookie with Firefox or whatever browser using through the Cookie Editor. Once we've made the cookie, just reload the page 
 
 ![rsa](images/rsa.png)
 
@@ -46,4 +46,4 @@
 ### From linpeas it also showed that we have write rights on /etc/hosts.
 ### So we now know there’s a cronjob running and we know what it does. Here we can trick curl to download a script we create called buildscript.sh from our web server. In order for this to work we’ll need overpass.thm to resolve to our ip address.
 
-
+![hosts](images/hosts.png)
