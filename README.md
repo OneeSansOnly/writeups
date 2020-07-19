@@ -52,3 +52,12 @@
 ### We can use the command mkdir -p downloads/src && vim buildscript.sh to make this dir in our attack machine .
 
 ![vim](images/vim.png)
+ 
+ ### We have our fake buildscipt ready. Start a python http server on port 80 in the /overpass directory. The directory structure matters
+ # Remember to keep the directory structure same otherwise it won't work and start the python server in correct pwd .
+ 
+ ![shell](images/shell.png)
+ 
+ ### Yosh We got the root shell and now we can navigate to /home/james to get user.txt and /root to get the root.txt
+ 
+ ![root](images/root.png)
