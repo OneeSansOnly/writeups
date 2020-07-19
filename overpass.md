@@ -62,5 +62,5 @@
  
  ![root](images/root_LI.jpg)
  
- ### This was a really good and fun room . I learn alot of new things ;D
+ ### This was a really good and fun room . I learnt alot of new things ;D
  ### Arigato <3
