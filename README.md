@@ -7,4 +7,4 @@
 
 The inital scan shows TCP ports 22 and 80 open. We’ll start enumerating the webpage.
 
-![stack Overflow](img/nmap.png)
+![nmap](images/nmap.PNG)
