@@ -47,3 +47,8 @@
 ### So we now know there’s a cronjob running and we know what it does. Here we can trick curl to download a script we create called buildscript.sh from our web server. In order for this to work we’ll need overpass.thm to resolve to our ip address.
 
 ![hosts](images/hosts.png)
+
+### Now that we have overpass.thm resolving to our IP address we can create the directory structure to mimic the URL curl is requesting.
+### We can use the command mkdir -p downloads/src && vim buildscript.sh to make this dir in our attack machine .
+
+![vim](images/vim.png)
