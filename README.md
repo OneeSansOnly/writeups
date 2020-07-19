@@ -42,4 +42,7 @@
 
 ![curl](images/curl.png)
 
+### We see a cronjob that’s trying to download a shell script using curl from overpass.thm then pipes it to bash.
+### From linpeas it also showed that we have write rights on /etc/hosts. So we can change the /etc/hosts overpass.thm to our THM IP .
+
 
