@@ -60,4 +60,7 @@
  
  ### Yosh We got the root shell and now we can navigate to /home/james to get user.txt and /root to get the root.txt
  
- ![root](images/root.png)
+ ![root](images/root_LI.jpg)
+ 
+ ### This was a really good and fun room . I learn alot of new things ;D
+ ### Arigato <3
