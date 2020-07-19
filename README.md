@@ -32,3 +32,14 @@
 ### You can make the fake cookie with Firefox or whatever browser using through the Cookie Editor. Once you've made the cookie reload the page 
 
 ![rsa](images/rsa.png)
+
+### We’re greeted with an encrypted RSA private key. Based on the message we see it was created for james.
+### Since the RSA key is encrypted we’ll use ssh2john and john to crack the hash. I saved the hash as hash.txt and then use john to crack the hash 
+
+![john](images/john.png)
+
+### We can then SSH to the box as user James and run our linpeas.sh to look for Privilage Escalation vectors.
+
+![curl](images/curl.png)
+
+
