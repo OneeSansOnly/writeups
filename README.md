@@ -43,6 +43,7 @@
 ![curl](images/curl.png)
 
 ### We see a cronjob that’s trying to download a shell script using curl from overpass.thm then pipes it to bash.
-### From linpeas it also showed that we have write rights on /etc/hosts. So we can change the /etc/hosts overpass.thm to our THM IP .
+### From linpeas it also showed that we have write rights on /etc/hosts.
+### So we now know there’s a cronjob running and we know what it does. Here we can trick curl to download a script we create called buildscript.sh from our web server. In order for this to work we’ll need overpass.thm to resolve to our ip address.
 
 
